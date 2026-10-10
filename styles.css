@@ -1,0 +1,17 @@
+/* Broken Name Watch: 通知と一覧のモーダル。色は Obsidian のテーマの変数だけを使う */
+.bnw-notice-line { overflow-wrap: anywhere; }
+.bnw-notice-button { margin-top: var(--size-4-2); }
+.bnw-item { padding: var(--size-4-2) 0; border-bottom: 1px solid var(--background-modifier-border); }
+.bnw-path { font-family: var(--font-monospace); font-size: var(--font-ui-small); overflow-wrap: anywhere; user-select: text; }
+.bnw-finding { display: flex; align-items: center; gap: var(--size-4-2); margin-top: var(--size-2-2); font-size: var(--font-ui-small); }
+.bnw-check { flex: none; font-weight: var(--font-semibold); }
+.bnw-check.bnw-error { color: var(--text-error); }
+.bnw-check.bnw-warning { color: var(--text-warning); }
+.bnw-detail { flex: 1; min-width: 0; color: var(--text-muted); overflow-wrap: anywhere; }
+.bnw-hint { margin-top: var(--size-2-2); color: var(--text-muted); font-size: var(--font-ui-small); overflow-wrap: anywhere; }
+.bnw-actions { display: flex; gap: var(--size-4-2); margin-top: var(--size-4-2); }
+.bnw-acked { margin-top: var(--size-4-4); }
+.bnw-acked > summary { cursor: pointer; color: var(--text-muted); }
+.bnw-empty, .bnw-howto { color: var(--text-muted); font-size: var(--font-ui-small); margin-top: var(--size-4-2); }
+.bnw-failed { margin-top: var(--size-4-4); }
+.bnw-failed-title { color: var(--text-error); font-weight: var(--font-semibold); }

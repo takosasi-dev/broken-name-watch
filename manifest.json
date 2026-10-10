@@ -1,0 +1,9 @@
+{
+	"id": "broken-name-watch",
+	"name": "Broken Name Watch",
+	"version": "0.1.0",
+	"minAppVersion": "1.14.4",
+	"description": "Warn right after a file or folder gets a name with invisible characters, non-NFC text, or characters Windows cannot use.",
+	"author": "takosasi-dev",
+	"isDesktopOnly": false
+}
